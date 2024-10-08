@@ -21,7 +21,8 @@ The overall dataset has not been normalized for better use. In this process, the
 ## Step 4: Data Visualization
 After the data preprocessing, we need to see that dataset again and see some visualization from training data. By this code, one can see the image and label for the training. As the data is labeled with correct output the image will match the label. You can change the index value and the image and label will change with respect to your index value. Matplotlib library has been used to see the image. Using the F-string code format, a title is produced.
 
-## 
+## Step 5: Building The Model
+In these lines of code, the model is being produced. Using the Sequential model, ANN is being trained for feedforward propagation. With this, the data flows in only one direction. To match this thing, a Flatten layer has been used to convert 2D input (28x28 images) into a 1D array (784-dimensional vector). This is much necessary because the hidden layer (Dense layer) could get a flat input. The Dense layer has 128 neuron in it which is a building block for ANN. The activation function "relu" has been used to add some non-linearity to the model. It is also required because image recognition is a non-linear problem. The final Dense layer is an output layer which has 10 neurons for the 10 digits like 0-9. The activation function is softmax which adds up all the probabilities equal to 1.
 
 
 
