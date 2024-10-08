@@ -58,6 +58,21 @@ Here the accuracy of the model has been produced. The overall accuracy is 97.3 p
 
 The final prediction shows the actual values and the predicted values are the same. Here the index can be changed to make your prediction.
 
+Reference:
+Video 1: 
+Title: Handwritten Digit Recognition on MNIST dataset | Machine Learning Tutorials Using Python In Hindi
+Link: https://youtu.be/bK_DBPcn3JQ?si=JEbVL_0WUrxtjH2g
+
+Video 2:
+Titel: Tensorflow and Keras: Getting Started with MNIST
+Link: https://youtu.be/eU0FFjYumCI?si=IdImgOhBd8CmUEEI
+
+Video 3:
+Title: Handwritten Digit Classification using ANN | MNIST Dataset
+Link: https://youtu.be/3xPT2Pk0Jds?si=qFO85s-CSwpHHIqc
+
+
+
 
 
 
