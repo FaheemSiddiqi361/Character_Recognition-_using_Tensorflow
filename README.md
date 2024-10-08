@@ -47,11 +47,16 @@ The fit() method is used to train the model on the given training dataset. Epoch
 ## Step 9: Model Evaluation with respect to Accuracy
 Here the evaluate() method provides the model performance on testing dataset based on trained model. Two things loss and accuracy has been evaluated with the model. Verbose controls the information like how much information would be presented as output to this code. Now we have two outputs like test loss and test accuracy.
 
+## Step 10: Seeing Predictions
+x_test data is used to predict the values for this trained model. For this purpose, the function predict() is used. The output is stored in y_probability. This y_probability is checked for axis=1 to make correct predictions. Index=1 shows the highest probability for the digit for each test value. This value is stored in y_prediction.
+
+## Step 11: Checking Accuracy Score
+Here the accuracy of the model has been produced. The overall accuracy is 97.3 percent which is a very good value for ANN model.
 
 
+## Step 12: Final Predictions
 
-
-
+The final prediction shows the actual values and the predicted values are the same. Here the index can be changed to make your prediction.
 
 
 
