@@ -10,4 +10,4 @@ You need to check and install some important libraries used for this project. Th
 Once you installed all the required libraries then you need to import so that these can be used in the programming for various purposes. All four libraries have been imported in this step. Then from the Tensorflow library, Keras, Sequential, and some layers like Dense and Flatten have been imported so that ANN model could be easily built and trained for predictions. 
 
 ## Step 2: Loading the MNIST Dataset
-In this step MNIST dataset which is already available in the framework has been imported for the digit recognition.
+In this step MNIST dataset which is already available in the framework has been imported for the digit recognition. The MNIST dataset is a dataset consisting of 70,000 grayscale images of handwritten digits. Each image is 28x28 pixels in size. We are going to use it for out task of digit recognition.
