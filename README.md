@@ -16,9 +16,10 @@ In this step, MNIST dataset which is already available in the framework has been
 In these steps both the training and testing dataset has been checked. For both variables X and Y, their values and shape has been checked. Also how much adat has been used for training and how much for testing? The total dataset has 70,000 images so 60,000 have been used for training the data and 10,000 images would be used for testing purpose.
 
 ## Step 3: Data Preprocessing
-The overall dataset has not been normalized for better use. In this process, range has been adjusted for more convergence. For example, the MNIST dataset has a range of 0 to 255 for the original pixel value of each greyscale image. For normalization purposes, we need to have pixel scale values between 0 and 1 so that there should be consistency in the input and model could be better trained for prediction. That's why each value has been divided by 255 in both training and testing datasets.
+The overall dataset has not been normalized for better use. In this process, the range has been adjusted for more convergence. For example, the MNIST dataset has a range of 0 to 255 for the original pixel value of each greyscale image. For normalization purposes, we need to have pixel scale values between 0 and 1 so that there should be consistency in the input and the model could be better trained for prediction. That's why each value has been divided by 255 in both training and testing datasets.
 
-
+## Step 4: Data Visualization
+After the data preprocessing, we need to see that dataset again and see some visualization from training data. By this code, one can see the image and label for the training. As the data is labeled with correct output the image will match the label. You cane change the index value and the image and label will change with respect to your index value.
 
 
 
