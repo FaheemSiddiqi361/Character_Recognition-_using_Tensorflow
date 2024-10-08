@@ -42,6 +42,6 @@ now add 10 bias with value to give 1290 as params.
 Here the model is compiled. The compile() function defines how a model will be trained by using the loss function, optimizer, and metrics to evaluate performance. By this loss and accuracy can be easily measured. The Loss as "sparse_categorical_crossentropy" is used for multi-class classification problems where the labels are given as integers. The loss function shows the difference between the probability of a number and the original number. Optimizer is used to update the weights while the model is being trained. Accuracy is being used as metrics which is used to see the performance of the model.
 
 ## Step 8: Training the model
-The fit() method is used to train the model on the given training dataset. Epochs show how many times the model will be iterated to get best performance. This number should be chosen by various numbers but keep in mind that the model is not getting overfitted. "Validation_split" shows that 20 percent of the training data will be used for validation purposes.
+The fit() method is used to train the model on the given training dataset. Epochs show how many times the model will be iterated to get the best performance. This number should be chosen by various numbers but keep in mind that the model is not getting overfitted. "Validation_split" shows that 20 percent of the training data will be used for validation purposes.
 
-
+## Step 9: Model Evaluation with respect to Accuracy
