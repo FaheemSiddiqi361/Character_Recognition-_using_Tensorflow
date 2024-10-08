@@ -27,10 +27,11 @@ In these lines of code, the model is being produced. Using the Sequential model,
 ## Step 6: Checking the Overall Summary of the Model
 This code provides a summary of our model. It shows Total parameters, Trainable parameters, and Non-trainable parameters as output.
 ### Flatten layer: 
-This layer shows that the total pixels of input image like 28x28 have been converted to 784-dimentional vector. Also, it has no trainable parameters because this is only reshaping the vector and nothing else.
+This layer shows that the total pixels of the input image like 28x28 have been converted to 784-dimensional vector. Also, it has no trainable parameters because this is only reshaping the vector and nothing else.
 ### Dense layer: 
-
-
+This layer shows that it has 128 neuron in it. Which means that it will produce 128 outputs for each input. Alo it shows params as 100,480 which can be calculated as follows.
+784 features connected with 128 neurons====> 784*128 = 100,352
+Now add 128 bias values====> 100352+128= 100,480
 
 
 
