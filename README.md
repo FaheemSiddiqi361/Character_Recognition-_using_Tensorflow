@@ -29,11 +29,14 @@ This code provides a summary of our model. It shows Total parameters, Trainable 
 ### Flatten layer: 
 This layer shows that the total pixels of the input image like 28x28 have been converted to 784-dimensional vector. Also, it has no trainable parameters because this is only reshaping the vector and nothing else.
 ### Dense layer: 
-This layer shows that it has 128 neuron in it. Which means that it will produce 128 outputs for each input. Alo it shows params as 100,480 which can be calculated as follows.
+This layer shows that it has 128 neuron in it. Which means that it will produce 128 outputs for each input. Also, it shows params as 100,480 which can be calculated as follows.
 784 features connected with 128 neurons====> 784*128 = 100,352
 Now add 128 bias values====> 100352+128= 100,480
-
-
+### Output Layer:
+This dense layer is used as output layer. It has 10 neurons for 10 types of digits like 0-9.
+The calculation for params is the same.
+128 inputs from previous layer connected with 10 neurons ====> 128*10 = 1280
+now add 10 bias with value to give 1290 as params.
 
 
 
