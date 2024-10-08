@@ -19,7 +19,11 @@ In these steps both the training and testing dataset has been checked. For both 
 The overall dataset has not been normalized for better use. In this process, the range has been adjusted for more convergence. For example, the MNIST dataset has a range of 0 to 255 for the original pixel value of each greyscale image. For normalization purposes, we need to have pixel scale values between 0 and 1 so that there should be consistency in the input and the model could be better trained for prediction. That's why each value has been divided by 255 in both training and testing datasets.
 
 ## Step 4: Data Visualization
-After the data preprocessing, we need to see that dataset again and see some visualization from training data. By this code, one can see the image and label for the training. As the data is labeled with correct output the image will match the label. You cane change the index value and the image and label will change with respect to your index value.
+After the data preprocessing, we need to see that dataset again and see some visualization from training data. By this code, one can see the image and label for the training. As the data is labeled with correct output the image will match the label. You can change the index value and the image and label will change with respect to your index value. Matplotlib library has been used to see the image. Using the F-string code format, a title is produced.
+
+## 
+
+
 
 
 
