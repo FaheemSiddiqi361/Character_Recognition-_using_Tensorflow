@@ -4,3 +4,5 @@ Follwing are the names of the Liberaries and code for the installation is given 
 2.Numpy
 3.Scikit-learn
 4.Matplotlib
+
+First install these and then import as given in the main file "PhD_Assignment.ipynb"
