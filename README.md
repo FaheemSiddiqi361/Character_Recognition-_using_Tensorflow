@@ -64,7 +64,7 @@ Title: Handwritten Digit Recognition on MNIST dataset | Machine Learning Tutoria
 Link: https://youtu.be/bK_DBPcn3JQ?si=JEbVL_0WUrxtjH2g
 
 Video 2:
-Titel: Tensorflow and Keras: Getting Started with MNIST
+Title: Tensorflow and Keras: Getting Started with MNIST
 Link: https://youtu.be/eU0FFjYumCI?si=IdImgOhBd8CmUEEI
 
 Video 3:
