@@ -45,3 +45,14 @@ Here the model is compiled. The compile() function defines how a model will be t
 The fit() method is used to train the model on the given training dataset. Epochs show how many times the model will be iterated to get the best performance. This number should be chosen by various numbers but keep in mind that the model is not getting overfitted. "Validation_split" shows that 20 percent of the training data will be used for validation purposes.
 
 ## Step 9: Model Evaluation with respect to Accuracy
+Here the evaluate() method provides the model performance on testing dataset based on trained model. Two things loss and accuracy has been evaluated with the model. Verbose controls the information like how much information would be presented as output to this code. Now we have two outputs like test loss and test accuracy.
+
+
+
+
+
+
+
+
+
+
